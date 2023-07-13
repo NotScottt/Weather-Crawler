@@ -62,7 +62,7 @@ def return_x_days(self):
 
     items = []
     for i in range(0, 8):
-        days1 = f"{days[i]} {temp[i]}, {info[i]}"
+        days1 = f"{days[i]}:\n{temp[i]}, {info[i]}\n"
         days1 = str(days1)
         items.append(days1)
 
